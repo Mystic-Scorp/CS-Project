@@ -1,2 +1,2 @@
-# CS-Project
+# webworx.github.io
 CS Web Design Project
