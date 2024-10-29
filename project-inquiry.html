@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='styles.css'>
+    <title> WebWorx - Project Inquiry </title>
+</head>
+<body>
+    <header>
+        <nav id='navbar'>
+          <ul class="left-nav">
+            <li><a href="start-project.html">Project Inquiry</a></li>
+          </ul>
+          <ul class="right-nav">
+            <li><a href='#welcome-section'>About</a></li>
+            <li><a href='work.html'>Work</a></li>
+            <li><a href='contact.html'>Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class='container'></div>
+    <section id="contact-form">
+        <h1>Ready to Begin?</h1>
+        <p>If you’re ready to take your project to the next level, fill out the form below, and I’ll get back to you shortly. Let’s bring your ideas to life!</p>
+      
+        <form>
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your name">
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email">
+      
+          <label for="company">Company Name <small>(optional)</small></label>
+          <input type="text" id="company" name="company" placeholder="Your company's name">
+      
+          <label for="project-details">Project Details</label>
+          <textarea id="project-details" name="project-details" required placeholder="Describe your project, goals, and any specific requirements"></textarea>
+      
+          <label for="budget">Budget Range</label>
+          <input type="text" id="budget" name="budget" placeholder="e.g., $500 - $2000">
+      
+          <label for="deadline">Preferred Deadline</label>
+          <input type="date" id="deadline" name="deadline">
+      
+          <button type="submit">Send Inquiry</button>
+        </form>
+    </section>   
+</body>
+</html>
